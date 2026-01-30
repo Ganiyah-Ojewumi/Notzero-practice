@@ -1,0 +1,9 @@
+.greet {
+    background-color: rgb(12, 150, 12);
+    color: white;
+}
+
+.active {
+    background-color: grey;
+    color: black;
+}
