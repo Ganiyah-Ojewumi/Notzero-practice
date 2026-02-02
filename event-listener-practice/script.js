@@ -104,9 +104,23 @@ const myInput = document.querySelector(".my-input");
 //     inputDisplay.textContent = `You selected ${selectedText}`;
 // })
 
-myInput.addEventListener("submit", (event) => {
-    const inputDisplay = document.querySelector(".input-display");
-    const myText = event.target.value;
+// const myForm = document.querySelector(".my-form");
+// myForm.addEventListener("submit", (event) => {
+//     event.preventDefault();
 
-    
+//     const formInput = myForm.querySelector(".my-input");
+//     const inputDisplay = document.querySelector(".input-display");
+//     const myText = formInput.value;
+//     if (myText === "") {
+//         inputDisplay.textContent = "Warning";
+//     } else {
+//         inputDisplay.textContent = "Form submitted successfully";
+//     }
+// })
+
+const myDiv2 = document.querySelector(".my-div2");
+myDiv2.style.backgroundColor = "green";
+
+myDiv2.addEventListener("drag", () => {
+ 
 })
